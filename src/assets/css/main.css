@@ -1,0 +1,19 @@
+body {
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  -webkit-user-select: none !important;
+  cursor: default !important;
+}
+
+.switch-wrapper {
+  position: relative;
+  width: 100%;
+}
+
+.switch-wrapper > div {
+  width: 100%;
+  position: fixed;
+}
